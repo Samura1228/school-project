@@ -1,0 +1,92 @@
+[
+    {
+        "text": "What is the basic economic problem?",
+        "options": ["Scarcity", "Inflation", "Unemployment", "Poverty"],
+        "correct_index": 0,
+        "difficulty": 1
+    },
+    {
+        "text": "Which of these is a factor of production?",
+        "options": ["Money", "Labor", "Stocks", "Bonds"],
+        "correct_index": 1,
+        "difficulty": 1
+    },
+    {
+        "text": "What happens to price when demand increases and supply stays the same?",
+        "options": ["Decreases", "Increases", "Stays the same", "Becomes zero"],
+        "correct_index": 1,
+        "difficulty": 1
+    },
+    {
+        "text": "What is GDP?",
+        "options": ["Gross Domestic Product", "General Domestic Price", "Global Development Plan", "Government Debt Policy"],
+        "correct_index": 0,
+        "difficulty": 1
+    },
+    {
+        "text": "Which market structure has only one seller?",
+        "options": ["Oligopoly", "Monopoly", "Perfect Competition", "Monopolistic Competition"],
+        "correct_index": 1,
+        "difficulty": 2
+    },
+    {
+        "text": "What is inflation?",
+        "options": ["Decrease in prices", "Increase in general price level", "Increase in unemployment", "Decrease in GDP"],
+        "correct_index": 1,
+        "difficulty": 2
+    },
+    {
+        "text": "What is opportunity cost?",
+        "options": ["The cost of an opportunity", "The value of the next best alternative foregone", "The price of a product", "The cost of production"],
+        "correct_index": 1,
+        "difficulty": 2
+    },
+    {
+        "text": "Which institution controls the money supply in the US?",
+        "options": ["The Treasury", "The Federal Reserve", "The Stock Market", "The World Bank"],
+        "correct_index": 1,
+        "difficulty": 2
+    },
+    {
+        "text": "What is a recession?",
+        "options": ["A period of economic growth", "A period of temporary economic decline", "A period of high inflation", "A period of low unemployment"],
+        "correct_index": 1,
+        "difficulty": 2
+    },
+    {
+        "text": "What is the law of demand?",
+        "options": ["Price and quantity demanded are directly related", "Price and quantity demanded are inversely related", "Supply creates its own demand", "Demand creates its own supply"],
+        "correct_index": 1,
+        "difficulty": 2
+    },
+    {
+        "text": "What is a progressive tax?",
+        "options": ["Tax rate decreases as income increases", "Tax rate increases as income increases", "Tax rate stays the same", "Tax on goods and services"],
+        "correct_index": 1,
+        "difficulty": 3
+    },
+    {
+        "text": "What is fiscal policy?",
+        "options": ["Government spending and taxation", "Central bank interest rates", "International trade agreements", "Regulation of businesses"],
+        "correct_index": 0,
+        "difficulty": 3
+    },
+    {
+        "text": "What is the main cause of hyperinflation?",
+        "options": ["Excessive money supply growth", "High interest rates", "Low government spending", "Trade surplus"],
+        "correct_index": 0,
+        "difficulty": 3
+    },
+    {
+        "text": "What is a tariff?",
+        "options": ["A tax on exports", "A tax on imports", "A limit on quantity", "A subsidy for domestic producers"],
+        "correct_index": 1,
+        "difficulty": 3
+    },
+    {
+        "text": "What is the difference between microeconomics and macroeconomics?",
+        "options": ["Small vs Large businesses", "Individual agents vs Economy as a whole", "Short term vs Long term", "Domestic vs International"],
+        "correct_index": 1,
+        "difficulty": 3
+    }
+]
