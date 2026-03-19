@@ -1,91 +1,91 @@
 [
     {
-        "text": "What is the basic economic problem?",
-        "options": ["Scarcity", "Inflation", "Unemployment", "Poverty"],
+        "text": "What do you use to buy things at a store?",
+        "options": ["Money", "Rocks", "Leaves", "Sand"],
         "correct_index": 0,
         "difficulty": 1
     },
     {
-        "text": "Which of these is a factor of production?",
-        "options": ["Money", "Labor", "Stocks", "Bonds"],
+        "text": "If you want to buy a toy but don't have enough money, what should you do?",
+        "options": ["Steal it", "Save money", "Cry", "Break it"],
         "correct_index": 1,
         "difficulty": 1
     },
     {
-        "text": "What happens to price when demand increases and supply stays the same?",
-        "options": ["Decreases", "Increases", "Stays the same", "Becomes zero"],
+        "text": "What is a 'need'?",
+        "options": ["Video games", "Candy", "Water", "Toys"],
+        "correct_index": 2,
+        "difficulty": 1
+    },
+    {
+        "text": "What is a 'want'?",
+        "options": ["Food", "Shelter", "New phone", "Medicine"],
+        "correct_index": 2,
+        "difficulty": 1
+    },
+    {
+        "text": "Where do people keep their money safe?",
+        "options": ["Under the bed", "In a bank", "In the trash", "In a tree"],
         "correct_index": 1,
         "difficulty": 1
     },
     {
-        "text": "What is GDP?",
-        "options": ["Gross Domestic Product", "General Domestic Price", "Global Development Plan", "Government Debt Policy"],
-        "correct_index": 0,
+        "text": "When you work, what do you earn?",
+        "options": ["Homework", "Income (Money)", "Nothing", "Trouble"],
+        "correct_index": 1,
         "difficulty": 1
     },
     {
-        "text": "Which market structure has only one seller?",
-        "options": ["Oligopoly", "Monopoly", "Perfect Competition", "Monopolistic Competition"],
+        "text": "If a store has a sale, what happens to the price?",
+        "options": ["It goes up", "It goes down", "It stays the same", "It disappears"],
+        "correct_index": 1,
+        "difficulty": 1
+    },
+    {
+        "text": "What is a budget?",
+        "options": ["A type of bird", "A plan for spending money", "A video game", "A type of food"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "What is inflation?",
-        "options": ["Decrease in prices", "Increase in general price level", "Increase in unemployment", "Decrease in GDP"],
+        "text": "If many people want to buy the same limited item, what usually happens to the price?",
+        "options": ["It goes down", "It goes up", "It stays the same", "It becomes free"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "What is opportunity cost?",
-        "options": ["The cost of an opportunity", "The value of the next best alternative foregone", "The price of a product", "The cost of production"],
+        "text": "What is 'profit'?",
+        "options": ["Money lost", "Money left after paying costs", "Money stolen", "Money given away"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "Which institution controls the money supply in the US?",
-        "options": ["The Treasury", "The Federal Reserve", "The Stock Market", "The World Bank"],
+        "text": "What is a tax?",
+        "options": ["Free money", "Money paid to the government", "A type of car", "A discount"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "What is a recession?",
-        "options": ["A period of economic growth", "A period of temporary economic decline", "A period of high inflation", "A period of low unemployment"],
+        "text": "What is 'saving'?",
+        "options": ["Spending all your money", "Keeping money for later", "Losing money", "Giving money away"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "What is the law of demand?",
-        "options": ["Price and quantity demanded are directly related", "Price and quantity demanded are inversely related", "Supply creates its own demand", "Demand creates its own supply"],
-        "correct_index": 1,
-        "difficulty": 2
-    },
-    {
-        "text": "What is a progressive tax?",
-        "options": ["Tax rate decreases as income increases", "Tax rate increases as income increases", "Tax rate stays the same", "Tax on goods and services"],
-        "correct_index": 1,
-        "difficulty": 3
-    },
-    {
-        "text": "What is fiscal policy?",
-        "options": ["Government spending and taxation", "Central bank interest rates", "International trade agreements", "Regulation of businesses"],
+        "text": "What is an 'entrepreneur'?",
+        "options": ["Someone who starts a business", "Someone who sleeps all day", "A type of doctor", "A teacher"],
         "correct_index": 0,
         "difficulty": 3
     },
     {
-        "text": "What is the main cause of hyperinflation?",
-        "options": ["Excessive money supply growth", "High interest rates", "Low government spending", "Trade surplus"],
-        "correct_index": 0,
-        "difficulty": 3
-    },
-    {
-        "text": "What is a tariff?",
-        "options": ["A tax on exports", "A tax on imports", "A limit on quantity", "A subsidy for domestic producers"],
+        "text": "What is 'supply'?",
+        "options": ["How much people want something", "How much of something is available", "The price of something", "A type of store"],
         "correct_index": 1,
         "difficulty": 3
     },
     {
-        "text": "What is the difference between microeconomics and macroeconomics?",
-        "options": ["Small vs Large businesses", "Individual agents vs Economy as a whole", "Short term vs Long term", "Domestic vs International"],
+        "text": "What is 'demand'?",
+        "options": ["How much of something is available", "How much people want to buy something", "The cost of making something", "A type of bank"],
         "correct_index": 1,
         "difficulty": 3
     }
