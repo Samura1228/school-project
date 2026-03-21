@@ -17,16 +17,23 @@ def create_tables():
             level INTEGER DEFAULT 1,
             streak INTEGER DEFAULT 0,
             last_played TEXT,
-            best_score INTEGER DEFAULT 0
+            best_score INTEGER DEFAULT 0,
+            language TEXT DEFAULT 'en'
         )
     ''')
     
     # Questions table
+    # We will drop the old table if it exists to update the schema easily
+    # In a production app with real data, we would use ALTER TABLE
+    cursor.execute("DROP TABLE IF EXISTS questions")
+    
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS questions (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            text TEXT,
-            options TEXT,
+            text_en TEXT,
+            text_ru TEXT,
+            options_en TEXT,
+            options_ru TEXT,
             correct_index INTEGER,
             difficulty INTEGER
         )
@@ -46,7 +53,25 @@ def get_user(user_id):
 def add_user(user_id, username):
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
-    cursor.execute("INSERT OR IGNORE INTO users (user_id, username) VALUES (?, ?)", (user_id, username))
+    # Check if user exists to avoid overwriting language preference
+    cursor.execute("SELECT user_id FROM users WHERE user_id = ?", (user_id,))
+    if not cursor.fetchone():
+        cursor.execute("INSERT INTO users (user_id, username, language) VALUES (?, ?, 'en')", (user_id, username))
+        conn.commit()
+    conn.close()
+
+def get_user_language(user_id):
+    conn = sqlite3.connect(DB_NAME)
+    cursor = conn.cursor()
+    cursor.execute("SELECT language FROM users WHERE user_id = ?", (user_id,))
+    result = cursor.fetchone()
+    conn.close()
+    return result[0] if result else 'en'
+
+def set_user_language(user_id, language):
+    conn = sqlite3.connect(DB_NAME)
+    cursor = conn.cursor()
+    cursor.execute("UPDATE users SET language = ? WHERE user_id = ?", (language, user_id))
     conn.commit()
     conn.close()
 
@@ -127,12 +152,13 @@ def get_leaderboard(limit=10):
     conn.close()
     return leaders
 
-def add_question(text, options, correct_index, difficulty):
+def add_question(text_en, text_ru, options_en, options_ru, correct_index, difficulty):
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
-    options_json = json.dumps(options)
-    cursor.execute("INSERT INTO questions (text, options, correct_index, difficulty) VALUES (?, ?, ?, ?)", 
-                   (text, options_json, correct_index, difficulty))
+    options_en_json = json.dumps(options_en)
+    options_ru_json = json.dumps(options_ru)
+    cursor.execute("INSERT INTO questions (text_en, text_ru, options_en, options_ru, correct_index, difficulty) VALUES (?, ?, ?, ?, ?, ?)", 
+                   (text_en, text_ru, options_en_json, options_ru_json, correct_index, difficulty))
     conn.commit()
     conn.close()
 
@@ -147,10 +173,12 @@ def get_random_questions(limit=10):
     for q in questions:
         formatted_questions.append({
             "id": q[0],
-            "text": q[1],
-            "options": json.loads(q[2]),
-            "correct_index": q[3],
-            "difficulty": q[4]
+            "text_en": q[1],
+            "text_ru": q[2],
+            "options_en": json.loads(q[3]),
+            "options_ru": json.loads(q[4]),
+            "correct_index": q[5],
+            "difficulty": q[6]
         })
         
     return formatted_questions

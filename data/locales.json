@@ -1,0 +1,114 @@
+{
+    "welcome": {
+        "en": "Welcome to Economic Sprint, {username}!\n\nImprove your economic skills with quick 2-3 minute challenges.\nEarn XP, level up, and compete on the leaderboard!",
+        "ru": "Добро пожаловать в Economic Sprint, {username}!\n\nУлучшайте свои экономические навыки с помощью быстрых 2-3 минутных испытаний.\nЗарабатывайте XP, повышайте уровень и соревнуйтесь в таблице лидеров!"
+    },
+    "menu_play": {
+        "en": "PLAY SPRINT",
+        "ru": "ИГРАТЬ СПРИНТ"
+    },
+    "menu_profile": {
+        "en": "MY PROFILE",
+        "ru": "МОЙ ПРОФИЛЬ"
+    },
+    "menu_leaderboard": {
+        "en": "LEADERBOARD",
+        "ru": "ТАБЛИЦА ЛИДЕРОВ"
+    },
+    "menu_settings": {
+        "en": "SETTINGS",
+        "ru": "НАСТРОЙКИ"
+    },
+    "menu_help": {
+        "en": "HELP",
+        "ru": "ПОМОЩЬ"
+    },
+    "profile_title": {
+        "en": "PROFILE: {username}",
+        "ru": "ПРОФИЛЬ: {username}"
+    },
+    "level": {
+        "en": "Level",
+        "ru": "Уровень"
+    },
+    "xp": {
+        "en": "XP",
+        "ru": "XP"
+    },
+    "streak": {
+        "en": "Daily Streak",
+        "ru": "Ежедневная серия"
+    },
+    "days": {
+        "en": "days",
+        "ru": "дней"
+    },
+    "best_score": {
+        "en": "Best Score",
+        "ru": "Лучший счет"
+    },
+    "leaderboard_title": {
+        "en": "LEADERBOARD",
+        "ru": "ТАБЛИЦА ЛИДЕРОВ"
+    },
+    "help_text": {
+        "en": "HOW TO PLAY:\n1. Click PLAY SPRINT to start a session.\n2. Answer 10 questions as fast as you can.\n3. Earn XP for correct answers.\n4. Level up and climb the leaderboard!\n\nDaily Streak: Play every day to earn bonus XP!",
+        "ru": "КАК ИГРАТЬ:\n1. Нажмите ИГРАТЬ СПРИНТ, чтобы начать сессию.\n2. Ответьте на 10 вопросов как можно быстрее.\n3. Зарабатывайте XP за правильные ответы.\n4. Повышайте уровень и поднимайтесь в таблице лидеров!\n\nЕжедневная серия: Играйте каждый день, чтобы получать бонусные XP!"
+    },
+    "settings_title": {
+        "en": "SETTINGS\n\nCurrent Language: English 🇬🇧",
+        "ru": "НАСТРОЙКИ\n\nТекущий язык: Русский 🇷🇺"
+    },
+    "change_language": {
+        "en": "Change Language 🇷🇺",
+        "ru": "Сменить язык 🇬🇧"
+    },
+    "language_changed": {
+        "en": "Language changed to English 🇬🇧",
+        "ru": "Язык изменен на Русский 🇷🇺"
+    },
+    "back": {
+        "en": "Back",
+        "ru": "Назад"
+    },
+    "question_header": {
+        "en": "Question {current}/{total}:",
+        "ru": "Вопрос {current}/{total}:"
+    },
+    "correct": {
+        "en": "✅ Correct!",
+        "ru": "✅ Правильно!"
+    },
+    "wrong": {
+        "en": "❌ Wrong. Answer: {answer}",
+        "ru": "❌ Неверно. Ответ: {answer}"
+    },
+    "sprint_finished": {
+        "en": "🏁 SPRINT FINISHED!",
+        "ru": "🏁 СПРИНТ ЗАВЕРШЕН!"
+    },
+    "score": {
+        "en": "Score",
+        "ru": "Счет"
+    },
+    "xp_gained": {
+        "en": "XP Gained",
+        "ru": "Получено XP"
+    },
+    "streak_bonus": {
+        "en": "🔥 Streak Bonus",
+        "ru": "🔥 Бонус за серию"
+    },
+    "level_up": {
+        "en": "🎉 LEVEL UP!",
+        "ru": "🎉 НОВЫЙ УРОВЕНЬ!"
+    },
+    "no_questions": {
+        "en": "No questions available yet.",
+        "ru": "Вопросы пока недоступны."
+    },
+    "register_first": {
+        "en": "Please type /start to register first.",
+        "ru": "Пожалуйста, введите /start для регистрации."
+    }
+}

@@ -1,8 +1,9 @@
 import logging
 from aiogram import Router, types
 from aiogram.filters import Command
-from database import add_user
+from database import add_user, get_user_language
 from handlers.menu import get_main_menu
+from utils.localization import get_text
 
 router = Router()
 
@@ -18,9 +19,9 @@ async def cmd_start(message: types.Message):
     except Exception as e:
         logging.error(f"Error adding user to database: {e}")
     
+    lang = get_user_language(user_id)
+    
     await message.answer(
-        f"Welcome to Economic Sprint, {username}!\n\n"
-        "Improve your economic skills with quick 2-3 minute challenges.\n"
-        "Earn XP, level up, and compete on the leaderboard!",
-        reply_markup=get_main_menu()
+        get_text("welcome", lang, username=username),
+        reply_markup=get_main_menu(user_id)
     )

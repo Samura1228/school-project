@@ -5,7 +5,7 @@ import os
 from aiogram import Bot, Dispatcher
 from config import BOT_TOKEN
 from database import create_tables, add_question, get_random_questions
-from handlers import start, menu, game
+from handlers import start, menu, game, settings
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -16,10 +16,17 @@ async def load_initial_questions():
     if not existing:
         logging.info("Loading initial questions...")
         try:
-            with open('data/questions.json', 'r') as f:
+            with open('data/questions.json', 'r', encoding='utf-8') as f:
                 questions = json.load(f)
                 for q in questions:
-                    add_question(q['text'], q['options'], q['correct_index'], q['difficulty'])
+                    add_question(
+                        q['text_en'], 
+                        q['text_ru'], 
+                        q['options_en'], 
+                        q['options_ru'], 
+                        q['correct_index'], 
+                        q['difficulty']
+                    )
             logging.info(f"Loaded {len(questions)} questions.")
         except Exception as e:
             logging.error(f"Error loading questions: {e}")
@@ -40,6 +47,7 @@ async def main():
     # Register Routers
     dp.include_router(start.router)
     dp.include_router(menu.router)
+    dp.include_router(settings.router)
     dp.include_router(game.router)
 
     # Start Polling

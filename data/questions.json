@@ -1,91 +1,121 @@
 [
     {
-        "text": "What do you use to buy things at a store?",
-        "options": ["Money", "Rocks", "Leaves", "Sand"],
+        "text_en": "What do you use to buy things at a store?",
+        "text_ru": "Что вы используете, чтобы покупать вещи в магазине?",
+        "options_en": ["Money", "Rocks", "Leaves", "Sand"],
+        "options_ru": ["Деньги", "Камни", "Листья", "Песок"],
         "correct_index": 0,
         "difficulty": 1
     },
     {
-        "text": "If you want to buy a toy but don't have enough money, what should you do?",
-        "options": ["Steal it", "Save money", "Cry", "Break it"],
+        "text_en": "If you want to buy a toy but don't have enough money, what should you do?",
+        "text_ru": "Если вы хотите купить игрушку, но у вас не хватает денег, что нужно сделать?",
+        "options_en": ["Steal it", "Save money", "Cry", "Break it"],
+        "options_ru": ["Украсть ее", "Накопить деньги", "Плакать", "Сломать ее"],
         "correct_index": 1,
         "difficulty": 1
     },
     {
-        "text": "What is a 'need'?",
-        "options": ["Video games", "Candy", "Water", "Toys"],
+        "text_en": "What is a 'need'?",
+        "text_ru": "Что такое 'потребность'?",
+        "options_en": ["Video games", "Candy", "Water", "Toys"],
+        "options_ru": ["Видеоигры", "Конфеты", "Вода", "Игрушки"],
         "correct_index": 2,
         "difficulty": 1
     },
     {
-        "text": "What is a 'want'?",
-        "options": ["Food", "Shelter", "New phone", "Medicine"],
+        "text_en": "What is a 'want'?",
+        "text_ru": "Что такое 'желание'?",
+        "options_en": ["Food", "Shelter", "New phone", "Medicine"],
+        "options_ru": ["Еда", "Жилье", "Новый телефон", "Лекарства"],
         "correct_index": 2,
         "difficulty": 1
     },
     {
-        "text": "Where do people keep their money safe?",
-        "options": ["Under the bed", "In a bank", "In the trash", "In a tree"],
+        "text_en": "Where do people keep their money safe?",
+        "text_ru": "Где люди хранят свои деньги в безопасности?",
+        "options_en": ["Under the bed", "In a bank", "In the trash", "In a tree"],
+        "options_ru": ["Под кроватью", "В банке", "В мусорке", "На дереве"],
         "correct_index": 1,
         "difficulty": 1
     },
     {
-        "text": "When you work, what do you earn?",
-        "options": ["Homework", "Income (Money)", "Nothing", "Trouble"],
+        "text_en": "When you work, what do you earn?",
+        "text_ru": "Что вы зарабатываете, когда работаете?",
+        "options_en": ["Homework", "Income (Money)", "Nothing", "Trouble"],
+        "options_ru": ["Домашнее задание", "Доход (Деньги)", "Ничего", "Проблемы"],
         "correct_index": 1,
         "difficulty": 1
     },
     {
-        "text": "If a store has a sale, what happens to the price?",
-        "options": ["It goes up", "It goes down", "It stays the same", "It disappears"],
+        "text_en": "If a store has a sale, what happens to the price?",
+        "text_ru": "Если в магазине распродажа, что происходит с ценой?",
+        "options_en": ["It goes up", "It goes down", "It stays the same", "It disappears"],
+        "options_ru": ["Она растет", "Она падает", "Она остается прежней", "Она исчезает"],
         "correct_index": 1,
         "difficulty": 1
     },
     {
-        "text": "What is a budget?",
-        "options": ["A type of bird", "A plan for spending money", "A video game", "A type of food"],
+        "text_en": "What is a budget?",
+        "text_ru": "Что такое бюджет?",
+        "options_en": ["A type of bird", "A plan for spending money", "A video game", "A type of food"],
+        "options_ru": ["Вид птицы", "План расходов", "Видеоигра", "Вид еды"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "If many people want to buy the same limited item, what usually happens to the price?",
-        "options": ["It goes down", "It goes up", "It stays the same", "It becomes free"],
+        "text_en": "If many people want to buy the same limited item, what usually happens to the price?",
+        "text_ru": "Если много людей хотят купить один и тот же редкий товар, что обычно происходит с ценой?",
+        "options_en": ["It goes down", "It goes up", "It stays the same", "It becomes free"],
+        "options_ru": ["Она падает", "Она растет", "Она остается прежней", "Он становится бесплатным"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "What is 'profit'?",
-        "options": ["Money lost", "Money left after paying costs", "Money stolen", "Money given away"],
+        "text_en": "What is 'profit'?",
+        "text_ru": "Что такое 'прибыль'?",
+        "options_en": ["Money lost", "Money left after paying costs", "Money stolen", "Money given away"],
+        "options_ru": ["Потерянные деньги", "Деньги после оплаты расходов", "Украденные деньги", "Подаренные деньги"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "What is a tax?",
-        "options": ["Free money", "Money paid to the government", "A type of car", "A discount"],
+        "text_en": "What is a tax?",
+        "text_ru": "Что такое налог?",
+        "options_en": ["Free money", "Money paid to the government", "A type of car", "A discount"],
+        "options_ru": ["Бесплатные деньги", "Деньги, уплачиваемые государству", "Тип машины", "Скидка"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "What is 'saving'?",
-        "options": ["Spending all your money", "Keeping money for later", "Losing money", "Giving money away"],
+        "text_en": "What is 'saving'?",
+        "text_ru": "Что такое 'сбережения'?",
+        "options_en": ["Spending all your money", "Keeping money for later", "Losing money", "Giving money away"],
+        "options_ru": ["Трата всех денег", "Сохранение денег на потом", "Потеря денег", "Раздача денег"],
         "correct_index": 1,
         "difficulty": 2
     },
     {
-        "text": "What is an 'entrepreneur'?",
-        "options": ["Someone who starts a business", "Someone who sleeps all day", "A type of doctor", "A teacher"],
+        "text_en": "What is an 'entrepreneur'?",
+        "text_ru": "Кто такой 'предприниматель'?",
+        "options_en": ["Someone who starts a business", "Someone who sleeps all day", "A type of doctor", "A teacher"],
+        "options_ru": ["Тот, кто начинает бизнес", "Тот, кто спит весь день", "Врач", "Учитель"],
         "correct_index": 0,
         "difficulty": 3
     },
     {
-        "text": "What is 'supply'?",
-        "options": ["How much people want something", "How much of something is available", "The price of something", "A type of store"],
+        "text_en": "What is 'supply'?",
+        "text_ru": "Что такое 'предложение'?",
+        "options_en": ["How much people want something", "How much of something is available", "The price of something", "A type of store"],
+        "options_ru": ["Сколько люди хотят купить", "Сколько товара доступно", "Цена товара", "Тип магазина"],
         "correct_index": 1,
         "difficulty": 3
     },
     {
-        "text": "What is 'demand'?",
-        "options": ["How much of something is available", "How much people want to buy something", "The cost of making something", "A type of bank"],
+        "text_en": "What is 'demand'?",
+        "text_ru": "Что такое 'спрос'?",
+        "options_en": ["How much of something is available", "How much people want to buy something", "The cost of making something", "A type of bank"],
+        "options_ru": ["Сколько товара доступно", "Сколько люди хотят купить", "Стоимость производства", "Тип банка"],
         "correct_index": 1,
         "difficulty": 3
     }
